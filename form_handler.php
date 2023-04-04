@@ -4,7 +4,7 @@ if(isset($_POST['submit'])) {
     $email = $_POST['email'];
     $message = $_POST['message'];
 
-    $to = "lyuthell@gmail.com"; //замените на свой email
+    $to = "lyuthell@gmail.com";
     $subject = "Сообщение с сайта";
     $body = "Имя: $name\nEmail: $email\n\n$message";
 
